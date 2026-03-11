@@ -1,3 +1,0 @@
-#!/bin/bash
-
-ps ax -o pid stat | awk '$2 ~ /^[RSDZT]/ {print $1}'
